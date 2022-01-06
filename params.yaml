@@ -19,8 +19,8 @@ estimators:   #ML Algorithm (Regression)
     params:
       # alpha: 0.88
       # l1_ratio: 0.89
-      alpha: 0.9
-      l1_ratio: 0.4
+      alpha: 0.92
+      l1_ratio: 0.46
 model_dir: saved_models
 
 reports:

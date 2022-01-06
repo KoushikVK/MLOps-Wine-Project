@@ -7,11 +7,11 @@ import argparse
 
 def read_params(config_path):
     with open(config_path) as yaml_file:   #params will be loaded as yaml's
-        config = yaml.safe_load(yaml_file)
+        config = yaml.safe_load(yaml_file)  #parmas and their datatype
 
     return config    
 
-
+#Getting the data from source 
 def get_data(config_path):
     config = read_params(config_path)
     data = config["data_source"]["s3_source"] #Data source

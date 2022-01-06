@@ -1,1 +1,10 @@
-#stages:
+#Versioning data (Logging what we are doing to data)  ##dvc repro to log changes in dvc lock file
+stages:
+  load_data:
+    cmd: python src/load_data.py --config=params.yaml  #now check dvc lock file 
+    deps:
+    - src/get_data.py
+    - src/load_data.py
+    - data_given/winequality.csv
+    outs:
+    - data/raw/winequality.csv

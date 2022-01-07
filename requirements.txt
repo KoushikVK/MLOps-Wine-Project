@@ -10,6 +10,7 @@ asyncssh==2.8.1
 atomicwrites==1.4.0
 atpublic==2.3
 attrs==21.4.0
+autopep8==1.6.0
 Babel==2.9.1
 backcall==0.2.0
 bleach==4.1.0
@@ -17,6 +18,7 @@ cachetools==4.2.4
 certifi==2021.10.8
 cffi==1.15.0
 charset-normalizer==2.0.10
+click==8.0.3
 colorama==0.4.4
 commonmark==0.9.1
 configobj==5.0.6
@@ -34,6 +36,7 @@ dvc==2.9.3
 entrypoints==0.3
 filelock==3.4.2
 flake8==4.0.1
+Flask==2.0.2
 flatten-dict==0.4.2
 flufl.lock==6.0
 frozenlist==1.2.0
@@ -55,6 +58,7 @@ iniconfig==1.1.1
 ipykernel==6.6.1
 ipython==7.31.0
 ipython-genutils==0.2.0
+itsdangerous==2.0.1
 jedi==0.18.1
 Jinja2==3.0.3
 joblib==1.1.0
@@ -109,6 +113,7 @@ Pygments==2.11.2
 pygtrie==2.4.2
 pyOpenSSL==21.0.0
 pyparsing==3.0.6
+pypiwin32==223
 pyrsistent==0.18.0
 pytest==6.2.5
 python-benedict==0.24.3
@@ -135,7 +140,7 @@ six==1.16.0
 sklearn==0.0
 smmap==5.0.0
 sniffio==1.2.0
--e git+https://github.com/KoushikVK/MLOps-Wine-Project.git@90fbf952b68575a51b50a7c39e43db8d1b1f952f#egg=src
+-e git+https://github.com/KoushikVK/MLOps-Wine-Project.git@56d8a59820bbcbdfca7f78f6ad9ade4170f68ec4#egg=src
 tabulate==0.8.9
 terminado==0.12.1
 testpath==0.5.0
@@ -154,6 +159,7 @@ voluptuous==0.12.2
 wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.2.3
+Werkzeug==2.0.2
 xmltodict==0.12.0
 yarl==1.7.2
 zc.lockfile==2.0

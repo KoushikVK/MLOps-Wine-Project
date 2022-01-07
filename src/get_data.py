@@ -7,14 +7,14 @@ import argparse
 
 def read_params(config_path):
     with open(config_path) as yaml_file:   #params will be loaded as yaml's
-        config = yaml.safe_load(yaml_file)  #parmas and their datatype
+        config = yaml.safe_load(yaml_file)  #params and their datatype
 
     return config    
 
 #Getting the data from source 
 def get_data(config_path):
     config = read_params(config_path)
-    data = config["data_source"]["s3_source"] #Data source
+    data = config["data_source"]["s3_source"] #Data source mentioned in params.yaml
     df = pd.read_csv(data,sep=",",encoding = 'utf-8')
     return df
 

@@ -76,7 +76,7 @@ def validate_input(dict_request):
 def form_response(dict_request):
     if validate_input(dict_request):
         data = dict_request.values() #we are getting only values and not keys 
-        data = [list(map(float, data))]  #converting str to float using map and converting to list (as it creates map object)
+        data = [list(map(float, data))]  #converting str(we usually get values from browser as str) to float using map and converting to list (as it creates map object)
         response = predict(data)
         return response
 

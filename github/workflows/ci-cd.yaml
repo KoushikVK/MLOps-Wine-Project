@@ -1,4 +1,4 @@
-name: Wine Quality Prediction
+name: Python application
 
 on:
   push:
